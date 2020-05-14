@@ -1,7 +1,9 @@
 # Analyzing COVID-19 cases in NYC
 Analyzing Covid-19 Cases in New York City to explore whether the lower income neighborhood is more likely to be infected with COVID-19?
 In March 2020, WHO declared COVID-19 outbreak a global pandemic. Since then, this virus has spread rapidly and affected more than 4 million people; while it has taken the lives of nearly 290,000 people worldwide (as of May 9, 2020). New York City is among one the most severely affected cities in the world, which accounts for nearly 50% of confirmed cases in the U.S.
+
 In this analysis, I would like to use the data set provided by the New York City Department of Health about the number of tests given and the number of positive COVID - tests compared with the median income in each zip code to see whether people living in the low-income areas are more likely to be affected by the virus. 
+
 There is a total of 3 files that I will use for this analysis:
 * 1 file contains the number of tests given and the number of positive cases in each zip code
 * 1 file contains the median income in each zip code
