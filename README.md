@@ -9,6 +9,7 @@ There is a total of 3 files that I will use for this analysis:
 * 1 file contains the number of tests given and the number of positive cases in each zip code
 * 1 file contains the median income in each zip code
 * 1 file contains the population in each zip code
+
 The analysis has shown that the data about confirmed cases based on alone does not give us enough evidence proving that COVID-19 cases mostly affect low-income areas. Knowing how rapidly the virus spreads in the community, we would need more data such as employment status, change of commuting or ridership before and after the pandemic, household size to justify whether low-income neighbourhoods are more vulnerable to this virus. 
 
 ## Source:
