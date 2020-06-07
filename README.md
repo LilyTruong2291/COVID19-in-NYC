@@ -42,10 +42,10 @@ the following variables:
 
 I looked at the correlation of each variables to each others.
 
-![Correlation Analysis](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/1.png)
+![Correlation Analysis](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/heatmap.png)
 
 I also looked at the distribution of cases using NYC map
-![Confirmed Cases per 1000 (updated May 26, 2016)](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/4.png)
+![Confirmed Cases per 1000 (updated Jun 01, 2016)](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/map.png)
 
 ## Findings
 
