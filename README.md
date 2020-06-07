@@ -1,4 +1,4 @@
-# Analyzing COVID-19 cases in New York City: Project Overview
+# Analyzing COVID-19 Cases in New York City: Project Overview
 *The analytics project aims to explore whether the lower income neighborhood is more likely to be infected with COVID-19.*
 
 In March 2020, WHO declared COVID-19 outbreak a global pandemic. Since then, this virus has spread rapidly and affected more than 4 million people; while it has taken the lives of nearly 290,000 people worldwide (as of May 9, 2020). New York City is among one the most severely affected cities in the world, which accounts for nearly 50% of confirmed cases in the U.S.
