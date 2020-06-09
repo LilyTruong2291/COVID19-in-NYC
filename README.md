@@ -1,11 +1,12 @@
 # Analyzing COVID-19 Cases in New York City: Project Overview
-*The analytics project aims to explore whether the lower income neighborhood is more likely to be infected with COVID-19.*
+*This analytics project aims to explore whether lower income neighborhoods are more likely to contract COVID-19.*
 
-In March 2020, WHO declared COVID-19 outbreak a global pandemic. Since then, this virus has spread rapidly and affected more than 4 million people; while it has taken the lives of nearly 290,000 people worldwide (as of May 9, 2020). New York City is among one the most severely affected cities in the world, which accounts for nearly 50% of confirmed cases in the U.S.
+In March 2020, WHO declared the disease caused by the novel coronavirus outbreak a global pandemic. Since then, this virus has spread rapidly and affected more than 4 million people; while it has taken the lives of nearly 290,000 people worldwide (as of May 9, 2020). New York City is among one the most severely affected cities in the world, which accounts for nearly 50% of confirmed cases in the U.S.
 
-In this analysis project, I would like to use the datasets provided by the New York City Department of Health about the number of tests given and the number of positive COVID-19 compared with the median income in each zip code to see whether people living in the low-income areas are more likely to be affected by the virus. 
+In this analysis project, I examine whether people living in low-income areas are more likely to be contract the virus. To do this, I use COVID testing data provided by the New York City Department of Health, as well as U.S. Census data from 2018.
 
 ## Code and Resources Used
+
 **Python Version:** 3.6
 
 **Server:** Microsoft Azure Notebook
@@ -21,7 +22,7 @@ In this analysis project, I would like to use the datasets provided by the New Y
 
 ## Data Collection
 
-The datasets are collected using the above links and merge into one dataframe with 177 rows and 7 columns. Each row represents each zip code in New York City. Each zipcode, we got the following:
+The datasets are collected using the above links and merged into one dataframe with 177 rows and 7 columns. Each row represents a zip code in New York City. For each zipcode, we get the following variables:
 
 * Zip_Code	
 * Positive	
@@ -32,12 +33,11 @@ The datasets are collected using the above links and merge into one dataframe wi
 
 ## Data Cleaning
 
-After collecting the data, I needed to clean it up so that it is ready for our analytics. I made the following changes and created
-the following variables:
+After collecting the data, I needed to clean it up so that it could be properly analyzed. I made the following changes and created the following variables:
 
-* Seperated Population for each zipcode
-* Made Column for Positve_per_1000
-* Made Column for Test_per_1000
+* Seperated Population for each zipcode - In the original dataset, multiple population data are in the same record.
+* Made Column for Positve_per_1000 - This column is transformed from Positive Column to help compare the Positve and Test records on equal footing.
+* Made Column for Test_per_1000 - This column is transformed from Test Column to help compare the Positve and Test records on equal footing.
 
 ## Exploratory Data Analysis (EDA)
 
