@@ -42,11 +42,15 @@ After collecting the data, I needed to clean it up so that it could be properly 
 
 I started by looking into any correlations among the available variables.
 
-![Correlation Analysis](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/heatmap.png)
+![Correlation Analysis](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/heatmap.PNG)
+
+The correlation coefficient between test given ratio and median income is -0.22 (R^2 = 0.048,p=0.003). That shows absence in the linear relationship between these two variables, which indicates that low-income communities don’t test at a lesser amount compared to other areas. When comparing a confirmed case ratio and median income, the correlation coefficient is -0.51 (R^2 = 0.257, p=0.00), which demonstrates a moderate negative association. Regarding the positive rate and median income, the correlation coefficient is -0.64 (R^2 = 0.405, p=0.00), which also shows a moderate negative association.
 
 I also visualized the geographic distribution of cases with a chloropleth map of NYC.
 
 ![Confirmed Cases per 1000 (updated Jun 01, 2016)](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/map.png)
+
+The map illustrates that some affluent areas in Manhattan have high number of confirmed cases. 
 
 ## Findings
 
