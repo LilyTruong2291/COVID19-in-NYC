@@ -37,6 +37,8 @@ After collecting the data, I needed to clean it up so that it could be properly 
 * Seperated Population for each zipcode - In the original dataset, multiple population data are in the same record.
 * Made Column for Positve_per_1000 - This column is transformed from Positive Column to help compare the Positve and Test records on equal footing.
 * Made Column for Test_per_1000 - This column is transformed from Test Column to help compare the Positve and Test records on equal footing.
+* Made Column for Log_Median_Income - This column is transformed from Median_Income as the variable is right skew.
+* Made Column for Log_Test_per_1000 - This column is transformed from Test_per_1000 as the variable is right skew.
 
 ## Exploratory Data Analysis (EDA)
 
@@ -50,7 +52,7 @@ I also visualized the geographic distribution of cases with a chloropleth map of
 
 ![Confirmed Cases per 1000 (updated Jun 01, 2016)](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/map.png)
 
-The map illustrates that some affluent areas in Manhattan have high number of confirmed cases. 
+The darker the red shade is the higher the number of confirmed cases per 1000 people. The map illustrates that some affluent areas in Manhattan have high number of confirmed cases. 
 
 ## Findings
 
