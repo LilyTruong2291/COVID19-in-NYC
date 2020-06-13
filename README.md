@@ -58,4 +58,5 @@ The darker the red shade is the higher the number of confirmed cases per 1000 pe
 
 My analysis led me to the conclusion that the available evidence does not support the hypothesis that COVID-19 disproportionately affects low-income areas. More data is needed to explore this issue further. Namely, I'd be very interested in adding employment data, commuting patterns, and household size to get a more accurate picture. 
 
-*The project I worked directly under the guidance of my mentor Farrokh Mansouri https://www.linkedin.com/in/farrokh-mansouri-b570b1b/*
+*The project I worked directly under the guidance of my mentor **Farrokh Mansouri** 
+https://www.linkedin.com/in/farrokh-mansouri-b570b1b/*
