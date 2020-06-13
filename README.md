@@ -1,8 +1,6 @@
 # Analyzing COVID-19 Cases in New York City: Project Overview
 *This analytics project aims to explore whether lower income neighborhoods are more likely to contract COVID-19.*
 
-*The project I worked directly under the guidance of my mentor  Farrokh Mansouri https://www.linkedin.com/in/farrokh-mansouri-b570b1b/*
-
 In March 2020, WHO declared the disease caused by the novel coronavirus outbreak a global pandemic. Since then, this virus has spread rapidly and affected more than 4 million people; while it has taken the lives of nearly 290,000 people worldwide (as of May 9, 2020). New York City is among one the most severely affected cities in the world, which accounts for nearly 50% of confirmed cases in the U.S.
 
 In this analysis project, I examine whether people living in low-income areas are more likely to contract the virus. To do this, I use COVID testing data provided by the New York City Department of Health, as well as U.S. Census data from 2018.
@@ -53,3 +51,5 @@ I also visualized the geographic distribution of cases with a chloropleth map of
 ## Findings
 
 My analysis led me to the conclusion that the available evidence does not support the hypothesis that COVID-19 disproportionately affects low-income areas. More data is needed to explore this issue further. Namely, I'd be very interested in adding employment data, commuting patterns, and household size to get a more accurate picture. 
+
+*The project I worked directly under the guidance of my mentor Farrokh Mansouri https://www.linkedin.com/in/farrokh-mansouri-b570b1b/*
