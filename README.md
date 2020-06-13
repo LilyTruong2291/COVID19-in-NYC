@@ -1,9 +1,9 @@
 # Analyzing COVID-19 Cases in New York City: Project Overview
 *This analytics project aims to explore whether lower income neighborhoods are more likely to contract COVID-19.*
 
-In March 2020, WHO declared the disease caused by the novel coronavirus outbreak a global pandemic. Since then, this virus has spread rapidly and affected more than 4 million people; while it has taken the lives of nearly 290,000 people worldwide (as of May 9, 2020). New York City is among one the most severely affected cities in the world, which accounts for nearly 50% of confirmed cases in the U.S.
+In March 2020, WHO declared the disease caused by the novel coronavirus (COVID-19) outbreak a global pandemic. Since then, this virus has spread rapidly and affected more than 4 million people; while it has taken the lives of nearly 290,000 people worldwide (as of May 9, 2020). New York City is among one the most severely affected cities in the world, which accounts for nearly 50% of confirmed cases in the U.S.
 
-In this analysis project, I examine whether people living in low-income areas are more likely to contract the virus. To do this, I use COVID testing data provided by the New York City Department of Health, as well as U.S. Census data from 2018.
+In this analysis project, I examine whether people living in low-income areas are more likely to contract the virus. To do this, I use COVID testing data provided by the New York City Department of Health, as well as the population and median income estimates collected from U.S. Census data (2014-2018).
 
 ## Code and Resources Used
 
@@ -44,7 +44,7 @@ I started by looking into any correlations among the available variables.
 
 ![Correlation Analysis](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/heatmap.PNG)
 
-The correlation coefficient between test given ratio and median income is -0.22 (R^2 = 0.048,p=0.003). That shows absence in the linear relationship between these two variables, which indicates that low-income communities don’t test at a lesser amount compared to other areas. When comparing a confirmed case ratio and median income, the correlation coefficient is -0.51 (R^2 = 0.257, p=0.00), which demonstrates a moderate negative association. Regarding the positive rate and median income, the correlation coefficient is -0.64 (R^2 = 0.405, p=0.00), which also shows a moderate negative association.
+The correlation coefficient between test given ratio and median income is -0.22 (R^2 = 0.048, p=0.003). That shows absence in the linear relationship between these two variables, which indicates that low-income communities don’t test at a lesser amount compared to other areas. When comparing a confirmed case ratio and median income, the correlation coefficient is -0.51 (R^2 = 0.257, p=0.00), which demonstrates a moderate negative association. Regarding the positive rate and median income, the correlation coefficient is -0.64 (R^2 = 0.405, p=0.00), which also shows a moderate negative association.
 
 I also visualized the geographic distribution of cases with a chloropleth map of NYC.
 
