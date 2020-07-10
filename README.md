@@ -26,66 +26,46 @@ In this analysis project, I examine which communities are more likely to contrac
 
 The datasets are collected using the above links and merged into one dataframe with 177 rows and 7 columns. Each row represents a zip code in New York City. For each zipcode, we get the following variables:
 
-* Zip_Code:  Modified ZCTA 
-* E_POV:  Persons below poverty estimate, 2014-2018 ACS
-* E_UNEMP:  Civilian (age 16+) unemployed estimate, 2014-2018 ACS
-* E_NOHSDP:  Persons (age 25+) with no high school diploma estimate, 2014-2018 ACS
-* E_AGE65:  Persons aged 65 and older estimate, 2014-2018 ACS
-* E_DISABL:  Civilian noninstitutionalized population with a disability estimate, 2014-2018 ACS
-* E_SNGPNT:  Single parent household with children under 18 estimate, 2014-2018 ACS
-* E_MINRTY:  Minority (all persons except white, nonHispanic) estimate, 2014-2018 ACS
-* E_LIMENG:  Persons (age 5+) who speak English "less than well" estimate, 2014-2018 ACS
-* E_MUNIT:  Housing in structures with 10 or more units estimate, 2014-2018 ACS
-* E_MOBILE:  Mobile homes estimate, 2014-2018 ACS
-* E_CROWD:  At household level (occupied housing units), more people than rooms estimate, 2014- 2018 ACS
-* E_NOVEH:  Households with no vehicle available estimate, 2014-2018 ACS
-* E_GROUPQ:  Persons in institutionalized group quarters estimate, 2014-2018 ACS
-* NEIGHBORHOOD_NAME:  Neighborhood name
-* BOROUGH_GROUP:  Borough group
-* COVID_CASE_COUNT:  Count of confirmed cases
-* COVID_CASE_RATE:  Rates of COVID cases per 100,000 People by ZCTA
-* POP_DENOMINATOR:  Population denominators for ZCTAs derived from intercensal estimates by the Bureau of Epidemiology Services
-* COVID_DEATH_COUNT:  Count of confirmed deaths  
-* COVID_DEATH_RATE:  Rate of confirmed deaths per 100,000 people by ZCTA 
-* PERCENT_POSITIVE:  Percentage of people ever tested for COVID-19 with a polymerase chain reaction (PCR) test who tested positive
-* TOTAL_COVID_TESTS:  Count of people tested for COVID-19 with a PCR test
-* geoid:  
-* Median_Income:  Median Income by ZCTA
-* Population:  Population by ZCTA
-* Log_Median_Income:  Transformed variable of Median_Income
-* E_POV_rate:  E_POV per  100,000 by ZCTA
-* E_UNEMP_rate:  E_UNEMP per 100,000 people by ZCTA
-* E_NOHSDP_rate:  E_NOHSDP per 100,000 people by ZCTA
-* E_AGE65_rate:  E_AGE65 per 100,000 people by ZCTA
-* E_DISABL_rate:  E_DISABL per 100,000 people by ZCTA
-* E_SNGPNT_rate:  E_SNGPNT per 100,000 people by ZCTA
-* E_MINRTY_rate:  E_MINRTY per 100,000 people by ZCTA
-* E_LIMENG_rate:  E_LIMENG per 100,000 people by ZCTA
-* E_MUNIT_rate:  E_MUNIT per 100,000 people by ZCTA
-* E_MOBILE_rate:  E_MOBILE per 100,000 people by ZCTA
-* E_CROWD_rate:  E_CROWD per 100,000 people by ZCTA
-* E_NOVEH_rate:  E_NOVEH per 100,000 people by ZCTA
-* E_GROUPQ_rate:  E_GROUPQ per 100,000 people by ZCTA
-* COPD:  Respondents aged ≥18 years who report ever having been told by a doctor, nurse, or other health professional that they had chronic obstructive pulmonary disease (COPD), emphysema, or chronic bronchitis.
-* Coronary Heart Disease:  Respondents aged ≥18 years who report ever having been told by a doctor, nurse, or other health professional that they had angina or coronary heart disease.
-* Diabetes:  Respondents aged ≥18 years who report ever been told by a doctor, nurse, or other health professional that they have diabetes other than diabetes during pregnancy.
-* High Blood Pressure:  Respondents aged ≥18 years who report ever having been told by a doctor, nurse, or other health professional that they have high blood pressure. Women who were told high blood pressure only during pregnancy and those who were told they had borderline hypertension were not included.
-* Obesity:  Adult obesity among adults aged ≥18 years
-* Chronic Kidney Disease:  Respondents aged ≥18 years who report ever having been told by a doctor, nurse, or other health professional that they have kidney disease
-* COPD_rate:  COPD estimates per 100,000 people by ZCTA
-* Coronary Heart Disease_rate:  Coronary Heart Disease per 100,000 people by ZCTA
-* Diabetes_rate:  Diabetes per 100,000 people by ZCTA
-* High Blood Pressure_rate:  High Blood Pressure per 100,000 people by ZCTA
-* Obesity_rate:  Obesity per 100,000 people by ZCTA
-* Chronic Kidney Disease_rate:  Chronic Kidney Disease per 100,000 people by ZCTA
+* Zip_Code
+* Neighborhood name
+* Borough group
+* Count of confirmed cases
+* Rates of COVID cases per 100,000 People by ZCTA
+* Population denominators for ZCTAs derived from intercensal estimates by the Bureau of Epidemiology Services
+* Count of confirmed deaths  
+* Rate of confirmed deaths per 100,000 people by ZCTA 
+* Percentage of people ever tested for COVID-19 with a polymerase chain reaction (PCR) test who tested positive
+* Count of people tested for COVID-19 with a PCR test
+* Median Income by ZCTA
+* Population by ZCTA
+* Persons below poverty estimate
+* Civilian (age 16+) unemployed estimate, 2014-2018 ACS
+* Persons (age 25+) with no high school diploma estimate, 2014-2018 ACS
+* Persons aged 65 and older estimate, 2014-2018 ACS
+* Civilian noninstitutionalized population with a disability estimate, 2014-2018 ACS
+* Single parent household with children under 18 estimate, 2014-2018 ACS
+* Minority (all persons except white, nonHispanic) estimate, 2014-2018 ACS
+* Persons (age 5+) who speak English "less than well" estimate, 2014-2018 ACS
+* Housing in structures with 10 or more units estimate, 2014-2018 ACS
+* Mobile homes estimate, 2014-2018 ACS
+* At household level (occupied housing units), more people than rooms estimate, 2014- 2018 ACS
+* Households with no vehicle available estimate, 2014-2018 ACS
+* Persons in institutionalized group quarters estimate, 2014-2018 ACS
+* COPD
+* Coronary Heart Disease
+* Diabetes
+* High Blood Pressure
+* Obesity
+* Chronic Kidney Disease
 
+More information about data can be found [here](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/Metadata.xlsx)
 
 ## Data Cleaning
 
 After collecting the data, I needed to clean and merge it up so that it could be properly analyzed. I made the following changes and created the following variables:
 
 * Seperated Population for each zipcode - In the original dataset, multiple population data are in the same record.
-* Allocated Census tract to Zip code level so all data can be merged to one file
+* Allocated Census tract to Zip code level so all data can be merged to one file based on Zip Code Level
 * Made Columns for _rate - These columns are transformed from health and svi columns to help compare all the varialbes on equal footing.
 * Made Column for Log_Median_Income - This column is transformed from Median_Income as the variable is right skew.
 
@@ -102,13 +82,10 @@ The correlation coefficient between test given ratio and median income is -0.22 
 I also visualized the geographic distribution of cases with a chloropleth map of NYC.
 
 ![Confirmed Cases per 100,000 (updated Jun 23, 2020)](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/map1.PNG)
-![Confirmed Death per 100,000 (updated Jun 23, 2020)](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/map2.PNG)
 
 The darker the red shade is the higher the number. The map illustrates that some affluent areas in Manhattan have high number of confirmed cases. 
 
-![Below Poverty per 100,000 (updated Jun 23, 2020)](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/map3.PNG)
 ![Minority per 100,000 (updated Jun 23, 2020)](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/map4.PNG)
-![Crowded Households per 100,000 (updated Jun 23, 2020)](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/map5.PNG)
 
 The darker the purple shade is the higher the number. 
 
