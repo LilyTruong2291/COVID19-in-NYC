@@ -90,6 +90,7 @@ The darker the red shade is the higher the number. Queens, followed by Bronx app
 ![Minority per 100,000 (updated Jun 23, 2020)](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/map4.PNG)
 
 The darker the purple shade is the higher the number. The chloropleth maps shows that some neighborhood in Bronx and Queens has high concentration of minority people living below poverty. That same areas also show the higher number of COVID cases.
+More data visulization can be found [here](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/data_eda.ipynb)
 
 ## Findings
 
