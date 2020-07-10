@@ -1,4 +1,4 @@
-# Analyzing COVID-19 Cases in New York City: Project Overview
+# Analyzing COVID-19 Cases in New York City: Project Overview (Working In Progress)
 *This analytics project aims to explore which communities are more likely to contract COVID-19.*
 
 In March 2020, WHO declared the disease caused by the novel coronavirus (COVID-19) outbreak a global pandemic. Since then, this virus has spread rapidly and affected more than 12 million people; while it has taken the lives of nearly 550,000 people worldwide. The U.S is among countries that are heavily affected by this pandemic. The nation accounts for more than 25% of confirmed cases worldwide, with 3.1 million confirmed cases and 134,000 reported deaths (as of Jul 9, 2020). The city of New York in the US has reported high rate cases of COVID-19 fatalities in racialized and low income Hispanic and Black communities which accounts for more than 62 percent of the related deaths in the state, (Wilson, 2020).
@@ -89,6 +89,7 @@ After collecting the data, I needed to clean and merge it up so that it could be
 * Made Columns for _rate - These columns are transformed from health and svi columns to help compare all the varialbes on equal footing.
 * Made Column for Log_Median_Income - This column is transformed from Median_Income as the variable is right skew.
 
+More detailed about data cleaning [here](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/data_cleaning.ipynb)
 
 ## Exploratory Data Analysis (EDA)
 
