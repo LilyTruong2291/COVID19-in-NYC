@@ -77,17 +77,19 @@ I started by looking into any correlations among the available variables.
 
 ![Correlation Analysis](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/corr.PNG)
 
-This simple statistics method help to identify which correlations are the strongest. Figure closer to 1 (darker blue shade) indicate positive correlation; whereas figure closer to -1 (darker red shade) indicate negative correlation. Out of 19 socio-economic and health factors I tested, the strongest correlation confimred cases per 100,000 with log median income (-0.53). There are weak linkages between minority/low education/underlying health issues with confirmed COVID-19 cases. The correlation reveals that more cases are occured in middle income communities. 
+This simple statistics method help to identify which correlations are the strongest. Figure closer to 1 (darker blue shade) indicate positive correlation; whereas figure closer to -1 (darker red shade) indicate negative correlation. Out of 19 socio-economic and health factors I tested, the strongest correlation confimred cases per 100,000 with log median income (-0.53). There are weak correlation between minority/low education/underlying health issues with confirmed COVID-19 cases. The correlation reveals that more cases are occured in middle income communities. 
 
 I also visualized the geographic distribution of cases with a chloropleth map of NYC.
 
 ![Confirmed Cases per 100,000 (updated Jun 23, 2020)](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/map1.PNG)
 
-The darker the red shade is the higher the number. The map illustrates that some affluent areas in Manhattan have high number of confirmed cases. 
+The darker the red shade is the higher the number. Queens, followed by Bronx appear to get hit the hardest by the virus. In addition, the map illustrates that some affluent areas in Manhattan have high number of confirmed cases. 
+
+![Persons living below porverty per 100,000 (updated Jun 23, 2020)](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/map3.PNG)
 
 ![Minority per 100,000 (updated Jun 23, 2020)](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/map4.PNG)
 
-The darker the purple shade is the higher the number. 
+The darker the purple shade is the higher the number. The chloropleth maps shows that some neighborhood in Bronx and Queens has high concentration of minority people living below poverty. That same areas also show the higher number of COVID cases.
 
 ## Findings
 
