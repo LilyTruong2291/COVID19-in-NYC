@@ -1,9 +1,9 @@
-# Analyzing COVID-19 Cases in New York City: Project Overview (Working In Progress)
+# Analyzing COVID-19 Cases in New York City: Project Overview 
 *This analytics project aims to explore which communities are more likely to contract COVID-19.*
 
 In March 2020, WHO declared the disease caused by the novel coronavirus (COVID-19) outbreak a global pandemic. Since then, this virus has spread rapidly and affected more than 12 million people; while it has taken the lives of nearly 550,000 people worldwide. The U.S is among countries that are heavily affected by this pandemic. The nation accounts for more than 25% of confirmed cases worldwide, with 3.1 million confirmed cases and 134,000 reported deaths (as of Jul 9, 2020). The city of New York in the US has reported high rate cases of COVID-19 fatalities in racialized and low income Hispanic and Black communities which accounts for more than 62 percent of the related deaths in the state, (Wilson, 2020).
 
-In this analysis project, I examine which communities are more likely to contract the virus. To do this, I use COVID testing data provided by the New York City Department of Health, as well as the population and median income estimates collected from U.S. Census data (2014-2018). Moreover, I collected data about people with disability/coloured, communities in unfavorable living conditions and having underying health issues that might increase their risks of severe illness from COVID-19, according to CDC (2020).
+In this analysis project, I examine which communities are more likely to contract the virus. To do this, I use COVID testing data provided by the New York City Department of Health(updated on June 23, 2020), as well as the population and median income estimates collected from U.S. Census data (2014-2018). Moreover, I collected data about people with disability/coloured, communities in unfavorable living conditions and having underying health issues that might increase their risks of severe illness from COVID-19, according to CDC (2020).
 
 ## Code and Resources Used
 
@@ -24,7 +24,7 @@ In this analysis project, I examine which communities are more likely to contrac
 
 ## Data Collection
 
-The datasets are collected using the above links and merged into one dataframe with 177 rows and 7 columns. Each row represents a zip code in New York City. For each zipcode, we get the following variables:
+The datasets are collected using the above links and merged into one dataframe with 177 rows and 29 columns. Each row represents a zip code in New York City. For each zipcode, we get the following variables:
 
 * Zip_Code
 * Neighborhood name
@@ -51,14 +51,14 @@ The datasets are collected using the above links and merged into one dataframe w
 * At household level (occupied housing units), more people than rooms estimate, 2014- 2018 ACS
 * Households with no vehicle available estimate, 2014-2018 ACS
 * Persons in institutionalized group quarters estimate, 2014-2018 ACS
-* COPD
+* COPD (chronic obstructive pulmonary disease (COPD), emphysema, or chronic bronchitis)
 * Coronary Heart Disease
 * Diabetes
 * High Blood Pressure
 * Obesity
 * Chronic Kidney Disease
 
-More information about data can be found [here](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/Metadata.xlsx)
+More information about the variables can be found in [the metadata](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/Metadata.xlsx)
 
 ## Data Cleaning
 
@@ -77,7 +77,7 @@ I started by looking into any correlations among the available variables.
 
 ![Correlation Analysis](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/corr.PNG)
 
-The correlation coefficient between test given ratio and median income is -0.22 (R^2 = 0.048, p=0.003). That shows absence in the linear relationship between these two variables, which indicates that low-income communities don’t test at a lesser amount compared to other areas. When comparing a confirmed case ratio and median income, the correlation coefficient is -0.51 (R^2 = 0.257, p=0.00), which demonstrates a moderate negative association. Regarding the positive rate and median income, the correlation coefficient is -0.64 (R^2 = 0.405, p=0.00), which also shows a moderate negative association.
+This simple statistics method help to identify which correlations are the strongest. Figure closer to 1 (darker blue shade) indicate positive correlation; whereas figure closer to -1 (darker red shade) indicate negative correlation. Out of 19 socio-economic and health factors I tested, the strongest correlation confimred cases per 100,000 with log median income (-0.53). There are weak linkages between minority/low education/underlying health issues with confirmed COVID-19 cases. The correlation reveals that more cases are occured in middle income communities. 
 
 I also visualized the geographic distribution of cases with a chloropleth map of NYC.
 
@@ -91,7 +91,7 @@ The darker the purple shade is the higher the number.
 
 ## Findings
 
-My analysis led me to the conclusion that the available evidence does not support the hypothesis that COVID-19 disproportionately affects low-income areas. More data is needed to explore this issue further. Namely, I'd be very interested in adding employment data, commuting patterns, and household size to get a more accurate picture. 
+My analysis led me to the conclusion that the available evidence does not support the hypothesis that COVID-19 disproportionately affects low-income areas. More data is needed to explore this issue further. Namely, I'd be very interested in adding employment data and commuting patterns to get a more accurate picture. 
 
 *Thanks to **Farrokh Mansouri** for his mentorship in this domain.* 
 
