@@ -20,6 +20,7 @@ In this analysis project, I examine which communities are more likely to contrac
 * NYC Department of Health and Mental Hygiene.coronavirus-data. https://github.com/nychealth/coronavirus-data/blob/master/tests-by-zcta.csv
 * Social Vulnerability Index per Tract Census Level. Agency for Toxic Substances and Disease Registry. https://svi.cdc.gov/
 * 500 Cities: Local Data for Better Health. Centers of Disease Control and Prevention.https://www.cdc.gov/features/500-cities-project/index.html
+* Modified Zip Code Tabulation Areas (MODZCTA). NYC OpenData. https://data.cityofnewyork.us/Health/Modified-Zip-Code-Tabulation-Areas-MODZCTA-/pri4-ifjk
 * USPS ZIP Code Crosswalk. Office of Policy Development and Research. https://www.huduser.gov/portal/datasets/usps_crosswalk.html
 
 ## Data Collection
@@ -64,7 +65,6 @@ More information about the variables can be found in [the metadata](https://gith
 
 After collecting the data, I needed to clean and merge it up so that it could be properly analyzed. I made the following changes and created the following variables:
 
-* Seperated Population for each zipcode - In the original dataset, multiple population data are in the same record.
 * Allocated Census tract to Zip code level so all data can be merged to one file based on Zip Code Level
 * Made Columns for _rate - These columns are transformed from health and svi columns to help compare all the varialbes on equal footing.
 * Made Column for Log_Median_Income - This column is transformed from Median_Income as the variable is right skew.
