@@ -72,8 +72,13 @@ After collecting the data, I needed to clean and merge it up so that it could be
 More detailed about data cleaning [here](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/data_cleaning.ipynb)
 
 ## Exploratory Data Analysis (EDA)
+The pivot table has shows that multiple neighborhood in Queens and Bronx county have the highest confirmed and dealth rates.
 
-I started by looking into any correlations among the available variables.
+![Pivot Table for Confirmed Rates by Neighborhood](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/images/pivot1.PNG)
+
+![Pivot Table for Dealth Rates by Neighborhood](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/images/pivot2.PNG)
+
+Then, I started by looking into any correlations among the available variables.
 
 ![Correlation Analysis](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/images/corr1.PNG)
 
