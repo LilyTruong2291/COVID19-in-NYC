@@ -82,7 +82,7 @@ Then, I started by looking into any correlations among the available variables.
 
 ![Correlation Analysis](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/images/corr1.PNG)
 
-This simple statistics method help to identify which correlations are the strongest. Figure closer to 1 (darker blue shade) indicate positive correlation; whereas figure closer to -1 (darker red shade) indicate negative correlation. Out of 19 socio-economic and health factors I tested, the strongest correlation confimred cases per 100,000 with log median income (-0.53). There are weak correlation between minority/low education/underlying health issues with confirmed COVID-19 cases. The correlation reveals that more cases are occured in middle income communities. 
+This simple statistics method help to identify which correlations are the strongest. Figure closer to 1 (darker blue shade) indicate positive correlation; whereas figure closer to -1 (darker red shade) indicate negative correlation. Out of 19 socio-economic and health factors I tested, the strongest correlation confimred cases per 100,000 with log median income (-0.53). There are weak correlation between minority/low education/underlying health issues with confirmed COVID-19 cases. 
 
 I also visualized the geographic distribution of cases with a chloropleth map of NYC.
 
