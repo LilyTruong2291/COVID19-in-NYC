@@ -11,7 +11,7 @@ In this analysis project, I examine which communities are more likely to contrac
 
 **Server:** Microsoft Azure Notebook
 
-**Packages:** numpy, pandas, matplotlib, seaborn, geopandas
+**Packages:** numpy, pandas, matplotlib, seaborn, geopandas, statsmodels, scikit-learn
 
 **Instataltion:** !pip install geopandas
 
@@ -58,6 +58,7 @@ The datasets are collected using the above links and merged into one dataframe w
 * High Blood Pressure
 * Obesity
 * Chronic Kidney Disease
+* Hospital admissions for influenza-like and/or pneumonia illnesses
 
 More information about the variables can be found in [the metadata](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/Metadata.xlsx)
 
