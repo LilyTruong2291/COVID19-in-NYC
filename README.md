@@ -89,7 +89,7 @@ I also visualized the geographic distribution of cases with a chloropleth map of
 
 ![Confirmed Cases per 100,000 (updated Jun 23, 2020)](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/images/map1.PNG)
 
-The darker the red shade is the higher the number. Queens, followed by Bronx appear to get hit the hardest by the virus. In addition, the map illustrates that some affluent areas in Manhattan have high number of confirmed cases. 
+The darker the red shade is the higher the number. Queens, followed by Bronx appear to get hit the hardest by the virus. Interestingly, the map illustrates that some affluent areas in Manhattan have high number of confirmed cases. 
 
 ![Persons living below porverty per 100,000 (updated Jun 23, 2020)](https://github.com/LilyTruong2291/COVID19-in-NYC/blob/master/images/map3.PNG)
 
@@ -100,7 +100,7 @@ More data visulization can be found [here](https://github.com/LilyTruong2291/COV
 
 ## Findings
 
-My analysis led me to the conclusion that the available evidence does not support the hypothesis that COVID-19 disproportionately affects low-income areas. More data is needed to explore this issue further. Namely, I'd be very interested in adding employment data and commuting patterns to get a more accurate picture. 
+My analysis led me to the conclusion that the available evidence does support the hypothesis that COVID-19 disproportionately affects low-income areas. 
 
 *Thanks to **Farrokh Mansouri** for his mentorship in this domain.* 
 
